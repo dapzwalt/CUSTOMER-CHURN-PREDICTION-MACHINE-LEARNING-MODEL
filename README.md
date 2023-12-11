@@ -53,7 +53,7 @@ After extensive experimentation and hyperparameter tuning, the model with the hi
 ## Key insights
 - The purpose of this project is to predict customer churn
 - After subjecting the models to evaluation metrics like the accuracy, recall, precision and f1score, the best performing model was chosen which is the SVM because we had lesser error with this model
-- From the confusion matrix, True positives, a total of 958 customers did not churn meaning they didn't cancel their service and the algorithm predicted right. False negatives a total of 198 customers did not churn meaning that they didnt cancel their service and the algorithm predicted that they churn. So I would advice the company to be more concerned about the true positives. 
+- From the confusion matrix, True positives, a total of 958 customers did not churn meaning they didn't cancel their service and the algorithm predicted right. False negatives a total of 198 customers did not churn meaning that they didnt cancel their service and the algorithm predicted that they churn. So I would advice the company to be more concerned about the false negatives. 
 
 ## Challenges
 The challenge I faced in this project was to manage my time in carrying it out without errors. Customer behavior is dynamic and can change over time. Patterns that were relevant in the past may not hold in the future, making it challenging to build models that generalize well. Also selecting the right features or variables that contribute most to predicting customer churn is not always straightforward. Choosing irrelevant or redundant features can lead to suboptimal model performance.
